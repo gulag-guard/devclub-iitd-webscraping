@@ -1,2 +1,3 @@
 # devclub-iitd-webscraping
 The bonus task for codeforces is simple enough to implement by putting a for loop that starts from current contest and goes backwards.
+Also, the screenshot function for chromedriver is flawed in my code, i.e. it cannot take full screenshot of web element. Some area always gets cropped out. I have managed to get the largest possible size of the problem statement, but I think gecko driver makes it possible to take screenshot of full window.
