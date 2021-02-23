@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from PIL import Image 
 from io import BytesIO
 import os
-PATH1 = "C:\Program Files (x86)\chromedriver.exe"
+PATH1 = "C:\Program Files (x86)\chromedriver.exe" #If anyone is checking this code (lol), plz put path of YOUR chromedriver here
 driver  = webdriver.Chrome(PATH1)
 base = "https://codeforces.com/contest/"
 parent_dir = "./"
